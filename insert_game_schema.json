@@ -1,0 +1,70 @@
+{
+  "date": "%Y-%m-%dT%H:%M:%S.%3NZ",
+  "duration": 120,
+  "map": "String",
+  "game_result": "RED/BLU/DRAW",
+  "blu_team": {
+    "name": "String",
+    "players": [
+      {
+        "steam_id": "64BITINTEGERASSTRING",
+        "alias": "String"
+      }
+    ]
+  },
+  "red_team": {
+    "name": "String",
+    "players": [
+      {
+        "steam_id": "64BITINTEGERASSTRING",
+        "alias": "String"
+      }
+    ]
+  },
+  "scores": [
+    {
+      "game_time":  12.1234,
+      "scorer": "64BITINTEGERASSTRING",
+      "team": "RED/BLU"
+    },
+    {
+      "game_time":  14,
+      "scorer": "64BITINTEGERASSTRING",
+      "team": "BLU"
+    }
+  ],
+  "steals": [
+    {
+      "game_time":  12.2,
+      "victim": "64BITINTEGERASSTRING",
+      "victim_team": "RED/BLU",
+      "stealer": "64BITINTEGERASSTRING",
+      "stealer_team": "RED/BLU"
+    },
+    {
+      "game_time":  15,
+      "victim": "64BITINTEGERASSTRING",
+      "victim_team": "RED",
+      "stealer": "64BITINTEGERASSTRING",
+      "stealer_team": "BLU"
+    }
+  ],
+  "passes": [
+    {
+      "game_time":  17.1234,
+      "passer": "64BITINTEGERASSTRING",
+      "passer_team": "RED/BLU",
+      "catcher": "64BITINTEGERASSTRING",
+      "catcher_team": "RED/BLU",
+      "type": "TEAM, ASSIST, INTERCEPT, BLOCK"
+    },
+    {
+      "game_time":  18,
+      "passer": "64BITINTEGERASSTRING",
+      "passer_team": "BLU",
+      "catcher": "64BITINTEGERASSTRING",
+      "catcher_team": "BLU",
+      "type": "ASSIST"
+    }
+  ]
+}
